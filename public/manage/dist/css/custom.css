@@ -1,0 +1,58 @@
+.datatable td, .datatable th{
+    vertical-align: middle;
+}
+
+.select2-container .select2-selection--single{
+    height: calc(2.25rem + 2px) !important;
+}
+
+.btn.btn-floating {
+    height: 35px;
+    width: 35px;
+    padding: 0;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.nav-sidebar .nav-header{
+    color: #ffffff !important;
+    background: #4da0f1 !important;
+    padding: 10px 25px 10px 15px;
+}
+
+.seo {
+    font-size: 10px;
+    color: #ad3419;
+}
+
+.form-text {
+    display: block;
+    margin-top: .25rem;
+    font-size: 12px;
+}
+
+/*Landscape phones and down*/
+@media (max-width: 480px) {
+    .btn-edit{
+        margin: 5px 0;
+    }
+}
+
+/*// Landscape phone to portrait tablet*/
+@media (max-width: 767px) {
+    .btn-edit{
+        margin: 5px 0;
+    }
+}
+
+/*// Portrait tablet to landscape and desktop*/
+@media (min-width: 768px) and (max-width: 979px) {
+    .btn-edit{
+        margin: 5px 0;
+    }
+}
+
+/*// Large desktop*/
+@media (min-width: 1200px) {
+
+}
